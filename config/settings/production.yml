@@ -1,5 +1,5 @@
 image:
-  web_service_url: http://54.152.221.29/images.json
+  url: http://54.152.221.29/images.json
   dimension:
     small:
       height: 320

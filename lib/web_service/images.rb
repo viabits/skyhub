@@ -5,8 +5,8 @@ module WebService
     end
 
     def urls
-      hash_images = JSON.parse response_from_web_service
-      hash_images['images'].map{ |image| image['url'] }
+      images = JSON.parse response_from_web_service
+      images['images'].map{ |image| image['url'] }
     end
 
     private
