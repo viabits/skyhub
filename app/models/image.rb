@@ -28,7 +28,7 @@ class Image
   end
 
   def self.file_name(dimension_name, file_name)
-    splited_name = file_name
+    splited_name = file_name.split('.')
     splited_name.first << "-#{dimension_name}." << splited_name.last
   end
 
