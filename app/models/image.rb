@@ -25,6 +25,8 @@ class Image
       ImageType.create(image: image, dimension_name: dim_name, url: upload_url)
     end
     image.save
+  rescue StandardError => e
+    render json: {error: e.to_s}, status: 500
   end
 
   def self.file_name(dimension_name, file_name)
