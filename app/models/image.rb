@@ -28,7 +28,8 @@ class Image
   end
 
   def self.file_name(dimension_name, file_name)
-    "#{dimension_name}-#{file_name}"
+    splited_name = file_name
+    splited_name.first << "-#{dimension_name}." << splited_name.last
   end
 
   def self.extract_file_name(url)
