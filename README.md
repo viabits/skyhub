@@ -18,8 +18,8 @@ Features
 
 How to use
 --------------
-* To consume the webservice described above go to http://skyhubapp.heroku.com/images/feed
-* To see the results go to http://skyhubapp.heroku.com/images/list
+* To consume the webservice described above go to http://skyhubapp.herokuapp.com/images/feed
+* To see the results go to http://skyhubapp.herokuapp.com/images/list
 
 Ruby On Rails
 -------------

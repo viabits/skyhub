@@ -18,7 +18,7 @@ class ImagesController < ApplicationController
 
   def message
     dev_url = 'localhost:3000/images/list'
-    prod_url = 'http://skyhubapp.heroku.com/images/list'
+    prod_url = 'http://skyhubapp.herokuapp.com/images/list'
     url = Rails.env.development? ? dev_url : prod_url
     "Image creation in progress. To see the results, go to #{url} in a few minutes."
   end
