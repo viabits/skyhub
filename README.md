@@ -21,12 +21,13 @@ How to use
 * To consume the webservice described above go to http://skyhubapp.heroku.com/images/feed
 * To see the results go to http://skyhubapp.heroku.com/images/list
 
-Ruby
+Ruby On Rails
 -------------
 
 This application requires:
 
 - Ruby 2.4.0
+- Ruby On Rails 5.1.0
 
 Instruction to run
 --------------
