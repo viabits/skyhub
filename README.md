@@ -14,8 +14,7 @@ Features
     - medium (384x288)
     - large (640x480)
 * It has a webservice endpoint that lists in JSON format.
-  - It lists all the ten photos with their respective formats,
-    providing their URLs.
+  - It lists all the ten photos with their respective formats, providing their URLs.
 
 
 Ruby
