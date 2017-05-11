@@ -16,6 +16,10 @@ Features
 * It has a webservice endpoint that lists in JSON format.
   - It lists all the ten photos with their respective formats, providing their URLs.
 
+How to use
+--------------
+* To consume the webservice described above go to http://skyhubapp.heroku.com/images/feed
+* To see the results go to http://skyhubapp.heroku.com/images/list
 
 Ruby
 -------------
@@ -27,7 +31,11 @@ This application requires:
 Instruction to run
 --------------
 
-- ruby skyhub.rb
+* In development mode
+  - rails server
+
+* In production mode
+  - See previous session 'How to use'
 
 Instruction to run all tests
 ----------------------------
