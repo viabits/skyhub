@@ -1,0 +1,13 @@
+images:
+  url: http://54.152.221.29/images.json
+  dimensions:
+    small:
+      height: 320
+      width: 240
+    medium:
+      height: 384
+      width: 288
+    large:
+      height: 640
+      width: 480
+
