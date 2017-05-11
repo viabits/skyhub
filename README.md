@@ -29,6 +29,11 @@ This application requires:
 - Ruby 2.4.0
 - Ruby On Rails 5.1.0
 
+Data storage
+------------
+* Mongodb for data
+* AWS S3 for photos
+
 Instruction to run
 --------------
 
