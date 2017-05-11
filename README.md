@@ -5,15 +5,17 @@ Sky Hub
 
 Features
 --------------
-* It Consumes a webservice endpoint (http://54.152.221.29/images.json) that
-  returns a JSON of photos. There are 10 photos.
-* It Generates three different formats for each photo.
+* It consumes a webservice endpoint (http://54.152.221.29/images.json) that
+  returns a JSON of photos.
+* There are 10 photos.
+* It generates three different formats for each photo.
   The dimensions are:
     - small (320x240)
     - medium (384x288)
     - large (640x480)
-* It has a webservice endpoint that lists (in JSON format) all the
-  ten photos with their respective formats, providing their URLs.
+* It has a webservice endpoint that lists in JSON format.
+  - It lists all the ten photos with their respective formats,
+    providing their URLs.
 
 
 Ruby
