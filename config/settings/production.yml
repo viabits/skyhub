@@ -1,6 +1,6 @@
 images:
   url: http://54.152.221.29/images.json
-  dimension:
+  dimensions:
     small:
       height: 320
       width: 240
