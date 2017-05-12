@@ -21,13 +21,13 @@ class Image
     image = self.create(file_name: file_name, url: url)
     Settings.images[:dimensions].each do |dim_name, dim|
       resized_image = ImageAdapt.resize(url, dim[:height], dim[:width])
-      upload_url = FileBucket.upload(file_name(dim_name, file_name), resized_image.path)
+      upload_url = FileBucket.upload(formated_file_name(dim_name, file_name), resized_image.path)
       ImageType.create(image: image, dimension_name: dim_name, url: upload_url)
     end
     image.save
   end
 
-  def self.file_name(dimension_name, file_name)
+  def self.formated_file_name(dimension_name, file_name)
     splited_name = file_name.split('.')
     splited_name.first << "-#{dimension_name}." << splited_name.last
   end
@@ -35,7 +35,5 @@ class Image
   def self.extract_file_name(url)
     url.split('/').last
   end
-
-
 
 end

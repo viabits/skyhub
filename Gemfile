@@ -5,7 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.0'
 
@@ -18,7 +17,7 @@ gem 'typhoeus'
 gem 'sucker_punch', '~> 2.0'
 
 # Image manipulation.
-# Iti requires ImageMagick or GraphicsMagick command-line too.
+# It requires ImageMagick or GraphicsMagick command-line too.
 # https://github.com/minimagick/minimagick
 gem 'mini_magick'
 
@@ -54,6 +53,9 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-rescue'
   gem 'pry-nav'
+  gem 'rspec-rails', '~> 3.5'
+  # Helper to test work flow
+  gem 'factory_girl_rails'
 end
 
 group :development do
